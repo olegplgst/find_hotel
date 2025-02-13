@@ -1,3 +1,34 @@
-.head {
-    background-color: black;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+*,* ::before,::after{
+    margin: o;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    min-width: 320px;
+}
+body{
+    line-height: 1;
+    font-family: Montserrat;
+    color: #262729;
+}
+[class*="__conteiner"]{
+    padding: 0 55px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.wraper{
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
 }
