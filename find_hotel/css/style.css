@@ -47,15 +47,13 @@ li{
 }
 /*--------------------------------------*/
 
-.header {}
 .header__conteiner {
     padding-top: 5px;
     display: flex;
     align-items: center;
     min-height: 76px;
 }
-.heder_-ligo {}
-.header__menu {}
+
 .menu__list {
     display: flex;
     width: 450px;
@@ -63,7 +61,7 @@ li{
     justify-content: space-between;
     margin: 10px 390px 10px 40px ;
 }
-.menu__item {}
+
 .menu__link {
     color: var(--color_text);
     font-weight: 500;
@@ -81,14 +79,12 @@ li{
 }
 .icons {
 }
-.icon_link {
 
-}
+
+
 
 /*-------------------------------------------------*/
-.page {}
 
-.page_main {}
 
 .main__conteiner {
     background-image: url('../img/Rectangle5.jpeg');
@@ -99,7 +95,7 @@ li{
 }
     
 
-.main__content {}
+
 
 .main__title {
     position: absolute;
