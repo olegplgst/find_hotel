@@ -132,7 +132,9 @@ li{
 }
 .button_search{
     background:var(--color_white);
-    margin-right: 15px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -50px;
 }
 .search__where{
     display: flex;
