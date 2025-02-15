@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+:root{
+    --color_text: #262729;
+    --color_red: #ee685f;
+    --color_blue: #2a90d9;
+    --color_white: #ffffff;
+}
 
 *,* ::before,::after{
     margin: o;
@@ -16,7 +22,7 @@ html,body{
 body{
     line-height: 1;
     font-family: Montserrat;
-    color: #262729;
+    color: var(--color_text);
 }
 [class*="__conteiner"]{
     padding: 0 55px;
@@ -29,6 +35,124 @@ body{
     display: flex;
     flex-direction: column;
 }
-.main{
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.page{
     flex: 1 1 auto;
 }
+/*--------------------------------------*/
+
+.header {}
+.header__conteiner {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    min-height: 76px;
+}
+.heder_-ligo {}
+.header__menu {}
+.menu__list {
+    display: flex;
+    width: 450px;
+    height: 20px;
+    justify-content: space-between;
+    margin: 10px 390px 10px 40px ;
+}
+.menu__item {}
+.menu__link {
+    color: var(--color_text);
+    font-weight: 500;
+}
+.heade__right__icon {
+    display: flex;
+}
+.icon__list {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.icons {
+}
+.icon_link {
+
+}
+
+/*-------------------------------------------------*/
+.page {}
+
+.page_main {}
+
+.main__conteiner {
+    background-image: url('../img/Rectangle5.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1170px;
+}
+    
+
+.main__content {}
+
+.main__title {
+    position: absolute;
+    margin: 70px 700px 21px 35px;
+    font-size: 48px;
+    font-weight: 700px
+    ;
+}
+
+.main_tex {
+    position: absolute;
+    margin: 208px 800px 232px 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main__search {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 70px;
+    background: var(--color_white);
+    border-radius: 50px;
+    position: absolute;
+    margin: 465px 300px -35px 300px;
+    border-style: solid;
+    border-color:#ebebeb;
+    color: #a3a3a3;
+    align-items: center;
+}
+.button_search{
+    background:var(--color_white);
+    margin-right: 15px;
+}
+.search__where{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+p{
+    color:var(--color_text)
+}
+.search_when{
+    margin-left: 5px;
+}
+.when_when{
+    margin-left: 40px;
+}
+.pereponka{
+    height: 40px;
+    width: 2px;
+    background: #ebebeb;
+    position: absolute;
+    margin-left: 260px;
+}
+input{font-size: 16px;}
